@@ -8,7 +8,7 @@ A customisable pagination component for ReactJS
 ``` 
 import Data from 'react-data-pagination';
 
-
+//this component renders the heading part of your data, your <thead></thead> in the case of a table
 const DataContainer = () => {
     return(
         <thead>
@@ -60,7 +60,16 @@ const dataset = [
         {"name": "Alec Long", "address": "564-4129 Purus. Av."}
 ];
 
-<Data dataset={dataset} offset={0} rows={10} dataBody={DataContainer} dataList={DataList} wrapper="table" wrapperCssClass="table" buttonCssClass="button" />
+<Data
+  dataset={dataset}
+  offset={0}
+  rows={5}
+  dataBody={DataContainer}
+  dataList={DataList}
+  wrapper="table"
+  wrapperCssClass="striped"
+  buttonCssClass="button"
+/>
 ```
 
 ## Props Explained
