@@ -1,11 +1,11 @@
 {
   "name": "react-data-pagination",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customisable pagination component for ReactJS",
   "main": "Data.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "./node_modules/.bin/babel src --out-file Data.js"
+    "build": "./node_modules/.bin/babel src --out-file Data.js"
   },
   "repository": {
     "type": "git",
@@ -29,7 +29,7 @@
     "url": "https://github.com/sawyerrken/react-data-pagination/issues"
   },
   "homepage": "https://github.com/sawyerrken/react-data-pagination#readme",
-    "peerDependencies": {
+  "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
