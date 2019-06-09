@@ -1,6 +1,6 @@
 {
   "name": "react-data-pagination",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A customisable pagination component for ReactJS",
   "main": "Data.js",
   "scripts": {
