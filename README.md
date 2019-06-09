@@ -80,3 +80,5 @@ const dataset = [
 
 **buttonCssClass:** css class to assign to the buttons that will hold the page numbers.
 
+## Example Demo With Code
+https://codesandbox.io/s/beautiful-beaver-qklbw
