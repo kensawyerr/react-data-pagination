@@ -1,0 +1,42 @@
+{
+  "name": "react-data-pagination",
+  "version": "1.0.0",
+  "description": "A customisable pagination component for ReactJS",
+  "main": "Data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "./node_modules/.bin/babel src --out-file Data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawyerrken/react-data-pagination.git"
+  },
+  "keywords": [
+    "react",
+    "react",
+    "paging",
+    "react-paging",
+    "pagination",
+    "pages",
+    "pagify",
+    "dataset",
+    "datatables",
+    "data-tables"
+  ],
+  "author": "Sawyerr Ken (sawyerrken@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sawyerrken/react-data-pagination/issues"
+  },
+  "homepage": "https://github.com/sawyerrken/react-data-pagination#readme",
+    "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
