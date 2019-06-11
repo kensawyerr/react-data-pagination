@@ -59,7 +59,8 @@ var PageNumbers = function PageNumbers(props) {
     };
     return _react["default"].createElement("li", {
       style: {
-        display: "inline"
+        display: "inline",
+        padding: "5px"
       },
       key: pageOffset
     }, _react["default"].createElement("button", {
@@ -68,7 +69,12 @@ var PageNumbers = function PageNumbers(props) {
       },
       className: props.buttonCssClass
     }, pageNumber + 1));
-  })), _react["default"].createElement("p", null, "Page: ", currentPageNumber));
+  }), _react["default"].createElement("li", {
+    style: {
+      display: "inline",
+      padding: "5px"
+    }
+  }, "Page: ", currentPageNumber, " of ", pages)));
 };
 
 var Data = function Data(props) {

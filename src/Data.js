@@ -31,14 +31,16 @@ const PageNumbers = (props) => {
                     index === 0 ? pageOffset = offset : pageOffset += rows;
                     let payload = {offset: pageOffset, rows: rows, currentPage: pageNumber + 1};
                     return (
-                        <li style={{display: "inline"}} key={pageOffset}><button onClick={()=>{getPageData(payload)}} className={props.buttonCssClass}>{pageNumber + 1}</button></li>
+                        <li style={{display: "inline", padding: "5px"}} key={pageOffset}><button onClick={()=>{getPageData(payload)}} className={props.buttonCssClass}>{pageNumber + 1}</button></li>
                     )
                 })}
+                <li style={{display: "inline", padding: "5px"}}>Page: {currentPageNumber} of {pages}</li>
             </ul>
-            <p>Page: {currentPageNumber}</p>
         </Fragment>
     );
 };
+
+
 
 
 const Data = (props) => {
